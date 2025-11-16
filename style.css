@@ -1,9 +1,11 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
-    background-color: rgb(237, 217, 220);
     color:black;
     margin: 0 auto 1em auto;
     padding: 20px;
+    cursor: url("cursor.png"), auto;
+    background-image: url("mybg.jpg");
+    background-repeat: repeat;
 
 }
 
@@ -20,6 +22,11 @@ img {
     margin: 10px;
     border-radius: 10px;
     border: 2px solid black;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 .flowerList, .dogList, .artistList {
@@ -50,6 +57,14 @@ img {
     font-size: 19px;
 }
 
+hr {
+    border-top: 2px dotted;
+    background-color: black;
+   
+}
 
+a {
+    color: black;
+}
 
 
